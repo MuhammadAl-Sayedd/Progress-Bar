@@ -10,14 +10,7 @@ when pressing next:
 1- the next circle be blue : adding the active class to it
 2- the progress bar move : increasing its width dynamically
 3-when reaching the last circle the next button disabled
-
-
-when pressing prev:
-1- remove the active class from the circle
-2- the progress bar move : decrease its width dynamically
-3-when reaching the first circle the prev button disabled
 */
-
 next.addEventListener('click',() => {
 counter ++;
   if (counter===circles.length) {
@@ -25,6 +18,13 @@ counter ++;
   }
   update();
   })
+
+/*
+when pressing prev:
+1- remove the active class from the circle
+2- the progress bar move : decrease its width dynamically
+3-when reaching the first circle the prev button disabled
+*/
 
 prev.addEventListener('click',() => {
     counter --;
