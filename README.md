@@ -14,7 +14,7 @@
 
 ### Introduction
 
-    this progress bar can be used on forms or multi-sectional pages. it have two buttons to switch between its five stages
+   this progress bar can be used on forms or multi-sectional pages. it have two buttons to switch between its five stages
 
 ## Project Structure
 
